@@ -1,11 +1,9 @@
 const numbers = [15, 30, 85, 60];
-const min = numbers[0];
-if (min < numbers) {
-    min = numbers
-}
-function allnumber(number) {
-    for (const num of number) {
 
+function allnumber(number) {
+    const min = numbers[0];
+    if (min < numbers) {
+        min = numbers
     }
     return min;
 }
