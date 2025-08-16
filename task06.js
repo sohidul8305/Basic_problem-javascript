@@ -1,5 +1,5 @@
 function validContact(contact) {
-    if (typeof conact !== "string") {
+    if (typeof contact !== "string") {
         return "Invalid";
     }
     if (contact.length != 11) {
